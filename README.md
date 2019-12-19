@@ -38,6 +38,7 @@ Follow these steps for completing your project.
 - [✅] Render a list of team members from state
 - [✅] Build a form to add a new member to the list of members
 
+Name
 ### STEP 1 - Setup your state
 
 - [✅] Import the `useState` hook and set up a state property for your team members list

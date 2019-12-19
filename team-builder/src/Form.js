@@ -21,7 +21,6 @@ const formValidates = (name, email, role) => {
     return true
   }
 
-
 const SignUpForm = (props) => {
 
     useEffect(() => {
@@ -55,17 +54,17 @@ const SignUpForm = (props) => {
         action="" method="get">
         
         <div className="TeamMember name">
-          <label for="GET-name">Name</label>
+          <label htmlFor="GET-name">Name</label>
           <input id="GET-name" type="text" name="name"  />
         </div>
 
         <div className="TeamMember email">
-          <label for="GET-email">Email</label>
+          <label htmlFor="GET-email">Email</label>
           <input id="GET-email" type="text" name="email"/>
         </div>
 
         <div className="TeamMember role">
-          <label for="GET-role">Role</label>
+          <label htmlFor="GET-role">Role</label>
           <input id="GET-role" type="text" name="role" />
         </div>
 
@@ -78,4 +77,3 @@ const SignUpForm = (props) => {
 }
 
 export default SignUpForm
-
