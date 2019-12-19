@@ -24,7 +24,7 @@ function App() {
 
   const clearFormInfo = () => {
     console.log('clearing form');
-    debugger
+    // debugger
     setWipe(true)
     setFormData({
       email: "",
