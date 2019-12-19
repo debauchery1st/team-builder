@@ -39,7 +39,7 @@ function App() {
       <header className="App-header">
       {Object.keys(teamMembers).filter(emailAddr => emailAddr !== "root@localhost").map(emailAddr => {
         return (
-          <div className="SavedTeamMember">
+          <div className="SavedTeamMember" key={emailAddr} >
             <li>{teamMembers[emailAddr].name}</li>
             <li>{teamMembers[emailAddr].role}</li>
             <li>{emailAddr}</li>
