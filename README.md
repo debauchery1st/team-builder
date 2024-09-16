@@ -16,13 +16,13 @@ In this project you'll build an app that will keep track of memebers of a team. 
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Use `npx create-react-app team-builder` or `create-react-app team-builder` to initiate the project.
-- [ ] CD into your `team-builder` directory
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [✅] Create a forked copy of this project.
+- [✅] Add your team lead as collaborator on Github.
+- [✅] Clone your OWN version of the repository in your terminal
+- [✅] Use `npx create-react-app team-builder` or `create-react-app team-builder` to initiate the project.
+- [✅] CD into your `team-builder` directory
+- [✅] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [✅] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
@@ -35,23 +35,24 @@ Follow these steps for completing your project.
 
 ## Minimum Viable Product
 
-- [ ] Render a list of team members from state
-- [ ] Build a form to add a new member to the list of members
+- [✅] Render a list of team members from state
+- [✅] Build a form to add a new member to the list of members
 
+Name
 ### STEP 1 - Setup your state
 
-- [ ] Import the `useState` hook and set up a state property for your team members list
+- [✅] Import the `useState` hook and set up a state property for your team members list
 
-- [ ] Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them.
+- [✅] Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them.
 
-- [ ] Render your list of team members
+- [✅] Render your list of team members
 
 ### STEP 2 - Build your form
 
-- [ ] In `Form.js` build out your markup
-- [ ] Build inputs for `name`, `email` and `role` (backend engineer, frontend engineer, designer, etc. Use your imagination)
-- [ ] Import the useState hook and utilize what we learned about two-way data binding
-- [ ] Render your `Form` component in `App` and pass a setter method (the `set_____` method from your team members state in `App`) down to it so you can add team members to your state.
+- [✅] In `Form.js` build out your markup
+- [✅] Build inputs for `name`, `email` and `role` (backend engineer, frontend engineer, designer, etc. Use your imagination)
+- [✅] Import the useState hook and utilize what we learned about two-way data binding
+- [✅] Render your `Form` component in `App` and pass a setter method (the `set_____` method from your team members state in `App`) down to it so you can add team members to your state.
 
 Now you are finished with MVP! Move on to the stretch goals at the bottom. The first is to add the functionality to edit members. As this is a very complicated process, steps have been included here to help you through that.
 
@@ -82,7 +83,7 @@ This is an interesting bit of architecture we've done so far. We have built a re
 Okay, now that we understand how `Form.js` knows if we are editing or creating members, we can finish this app!
 
 - [ ] Create a new function in `App.js` called `editMember` that will edit one or more of the details of a team member and pass it down to the second form component. You'll have to find a way to loop over the data in your state, find the specific team member you intend to edit, and finally change the details with the data sent up to you from the second form component. `.map()` will be your friend for that task. You'll also want to avoid directly mutating your data. The `...` spread operator will be your friend there.
-- [ ] On form submit, do an `if` check to see if the `memberToEdit` prop is there or not, and run the correct functions in the `if` and `else` blocks based on that check.
+- [ ] On form submit, do an `if` check to see if the `memberToEdit` prop is there or not, and run the correct functions in the `if` and `else` blocks based on that check. 
 
 Observe the power of reusability!
 
@@ -96,4 +97,4 @@ After finishing your required elements, you can push your work further. These go
 
 - [ ] Look into the various strategies around form validation. What happens if you try to enter a number as a team-members name? Does your App allow for that? Should it? What happens if you try and enter a function as the value to one of your fields? How could this be dangerous? How might you prevent it?
 
-- [ ] Style the forms. There are some subtle browser defaults for input tags that might need to be overwritten based on their state (active, focus, hover, etc.); Keep those CSS skill sharp.
+- [✅] Style the forms. There are some subtle browser defaults for input tags that might need to be overwritten based on their state (active, focus, hover, etc.); Keep those CSS skill sharp.
